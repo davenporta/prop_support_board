@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100SP3T1B1M2QE
+D SWITCH TOGGLE SPDT 5A 120V
+K EG2355-ND 100
+F http://spec_sheets.e-switch.com/specs/T111597.pdf
+$ENDCMP
+#
+#End Doc Library
