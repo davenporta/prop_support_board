@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:thermocouple_daughter-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x09_Male J1
+L Connector:Conn_01x09_Male J?
 U 1 1 5CA508EB
 P 1600 1750
-F 0 "J1" H 1700 2375 50  0000 C CNN
+F 0 "J?" H 1700 2375 50  0000 C CNN
 F 1 "Conn_01x09_Male" H 1700 2300 50  0000 C CNN
 F 2 "davenport_kicad_footprints:DaughterBoardConnector" H 1600 1750 50  0001 C CNN
 F 3 "~" H 1600 1750 50  0001 C CNN
@@ -88,10 +87,10 @@ Connection ~ 2250 2050
 NoConn ~ 1800 1650
 NoConn ~ 1800 1750
 $Comp
-L Sensor_Temperature:AD8495 U2
+L Sensor_Temperature:AD8495 U?
 U 1 1 5CA552DD
 P 8075 3300
-F 0 "U2" H 7525 3625 50  0000 L CNN
+F 0 "U?" H 7525 3625 50  0000 L CNN
 F 1 "AD8495" H 7525 3700 50  0000 L CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8975 3050 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf" H 8075 3300 50  0001 C CNN
@@ -114,10 +113,10 @@ Wire Wire Line
 	8475 3300 8625 3300
 Connection ~ 8625 3300
 $Comp
-L davenport-kicad:AD8613 U1
+L davenport-kicad:AD8613 U?
 U 1 1 5CA58A7A
 P 4850 4900
-F 0 "U1" H 4850 4085 50  0000 C CNN
+F 0 "U?" H 4850 4085 50  0000 C CNN
 F 1 "AD8613" H 4850 4176 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 4850 4850 50  0001 C CNN
 F 3 "" H 4850 4850 50  0001 C CNN
@@ -170,10 +169,10 @@ Wire Wire Line
 Wire Wire Line
 	5375 3175 5025 3175
 $Comp
-L Device:R R1
+L Device:R R?
 U 1 1 5CA6235D
 P 5025 2875
-F 0 "R1" H 5095 2921 50  0000 L CNN
+F 0 "R?" H 5095 2921 50  0000 L CNN
 F 1 "1k" H 5095 2830 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4955 2875 50  0001 C CNN
 F 3 "~" H 5025 2875 50  0001 C CNN
@@ -181,10 +180,10 @@ F 3 "~" H 5025 2875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R?
 U 1 1 5CA6276D
 P 5025 3450
-F 0 "R2" H 5095 3496 50  0000 L CNN
+F 0 "R?" H 5095 3496 50  0000 L CNN
 F 1 "1k" H 5095 3405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4955 3450 50  0001 C CNN
 F 3 "~" H 5025 3450 50  0001 C CNN
@@ -258,10 +257,10 @@ Connection ~ 7975 2825
 Wire Wire Line
 	7975 2825 7975 2725
 $Comp
-L Device:C C3
+L Device:C C?
 U 1 1 5CA669AE
 P 8300 2825
-F 0 "C3" V 8552 2825 50  0000 C CNN
+F 0 "C?" V 8552 2825 50  0000 C CNN
 F 1 "100n" V 8461 2825 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8338 2675 50  0001 C CNN
 F 3 "~" H 8300 2825 50  0001 C CNN
@@ -276,10 +275,10 @@ Connection ~ 7975 3850
 Wire Wire Line
 	7975 3850 7975 4050
 $Comp
-L Device:C C2
+L Device:C C?
 U 1 1 5CA690E2
 P 7625 3850
-F 0 "C2" V 7373 3850 50  0000 C CNN
+F 0 "C?" V 7373 3850 50  0000 C CNN
 F 1 "100n" V 7464 3850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7663 3700 50  0001 C CNN
 F 3 "~" H 7625 3850 50  0001 C CNN
@@ -315,23 +314,23 @@ F 3 "" H 8575 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L Device:C C?
 U 1 1 5CA8004A
 P 7150 3300
-F 0 "C1" H 7265 3346 50  0000 L CNN
+F 0 "C?" H 7265 3346 50  0000 L CNN
 F 1 "10n" H 7265 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7188 3150 50  0001 C CNN
+F 2 "" H 7188 3150 50  0001 C CNN
 F 3 "~" H 7150 3300 50  0001 C CNN
 	1    7150 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5CA80CA7
 P 6150 3325
-F 0 "J2" H 6068 3000 50  0000 C CNN
+F 0 "J?" H 6068 3000 50  0000 C CNN
 F 1 "Conn_01x02" H 6068 3091 50  0000 C CNN
-F 2 "davenport_kicad_footprints:PCC-OST" H 6150 3325 50  0001 C CNN
+F 2 "" H 6150 3325 50  0001 C CNN
 F 3 "~" H 6150 3325 50  0001 C CNN
 	1    6150 3325
 	-1   0    0    1   
@@ -368,12 +367,12 @@ Connection ~ 6775 3150
 Wire Wire Line
 	6775 3150 6475 3150
 $Comp
-L Device:R R3
+L Device:R R?
 U 1 1 5CA86EA1
 P 6775 3900
-F 0 "R3" H 6845 3946 50  0000 L CNN
+F 0 "R?" H 6845 3946 50  0000 L CNN
 F 1 "1M" H 6845 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6705 3900 50  0001 C CNN
+F 2 "" V 6705 3900 50  0001 C CNN
 F 3 "~" H 6775 3900 50  0001 C CNN
 	1    6775 3900
 	1    0    0    -1  
@@ -381,10 +380,10 @@ $EndComp
 Wire Wire Line
 	6775 4050 6775 4150
 $Comp
-L power:GND #PWR0112
+L power:GND #PWR?
 U 1 1 5CA8805E
 P 6775 4150
-F 0 "#PWR0112" H 6775 3900 50  0001 C CNN
+F 0 "#PWR?" H 6775 3900 50  0001 C CNN
 F 1 "GND" H 6780 3977 50  0000 C CNN
 F 2 "" H 6775 4150 50  0001 C CNN
 F 3 "" H 6775 4150 50  0001 C CNN

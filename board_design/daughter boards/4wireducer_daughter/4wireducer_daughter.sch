@@ -1,4 +1,242 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x09_Male J1
+U 1 1 5CA923A8
+P 3150 3950
+F 0 "J1" H 3258 4531 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 3258 4440 50  0000 C CNN
+F 2 "davenport_kicad_footprints:DaughterBoardConnector" H 3150 3950 50  0001 C CNN
+F 3 "~" H 3150 3950 50  0001 C CNN
+	1    3150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CA93E33
+P 6925 4125
+F 0 "R1" H 6995 4171 50  0000 L CNN
+F 1 "3K3" H 6995 4080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6855 4125 50  0001 C CNN
+F 3 "~" H 6925 4125 50  0001 C CNN
+	1    6925 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CA94109
+P 6925 4575
+F 0 "R2" H 6995 4621 50  0000 L CNN
+F 1 "3K3" H 6995 4530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6855 4575 50  0001 C CNN
+F 3 "~" H 6925 4575 50  0001 C CNN
+	1    6925 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5CA945C3
+P 7475 4575
+F 0 "C1" H 7590 4621 50  0000 L CNN
+F 1 "10u" H 7590 4530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7513 4425 50  0001 C CNN
+F 3 "~" H 7475 4575 50  0001 C CNN
+	1    7475 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 4725 7475 4900
+Wire Wire Line
+	6925 4725 6925 4900
+$Comp
+L power:GND #PWR0101
+U 1 1 5CA952BF
+P 6925 4900
+F 0 "#PWR0101" H 6925 4650 50  0001 C CNN
+F 1 "GND" H 6930 4727 50  0000 C CNN
+F 2 "" H 6925 4900 50  0001 C CNN
+F 3 "" H 6925 4900 50  0001 C CNN
+	1    6925 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CA95398
+P 7475 4900
+F 0 "#PWR0102" H 7475 4650 50  0001 C CNN
+F 1 "GND" H 7480 4727 50  0000 C CNN
+F 2 "" H 7475 4900 50  0001 C CNN
+F 3 "" H 7475 4900 50  0001 C CNN
+	1    7475 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 4275 6925 4350
+Wire Wire Line
+	7475 4425 7475 4350
+Wire Wire Line
+	7475 4350 6925 4350
+Connection ~ 6925 4350
+Wire Wire Line
+	6925 4350 6925 4425
+Wire Wire Line
+	6925 3975 6925 3875
+$Comp
+L Device:Jumper JP1
+U 1 1 5CA9CCCE
+P 6000 2050
+F 0 "JP1" H 6000 2314 50  0000 C CNN
+F 1 "Jumper" H 6000 2223 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 2050 50  0001 C CNN
+F 3 "~" H 6000 2050 50  0001 C CNN
+	1    6000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP2
+U 1 1 5CA9DC23
+P 6000 2450
+F 0 "JP2" H 6000 2714 50  0000 C CNN
+F 1 "Jumper" H 6000 2623 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 2450 50  0001 C CNN
+F 3 "~" H 6000 2450 50  0001 C CNN
+	1    6000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP3
+U 1 1 5CA9E183
+P 6000 2850
+F 0 "JP3" H 6000 3114 50  0000 C CNN
+F 1 "Jumper" H 6000 3023 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 2850 50  0001 C CNN
+F 3 "~" H 6000 2850 50  0001 C CNN
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 3775 8275 3775
+Wire Wire Line
+	8275 3775 8275 4625
+$Comp
+L power:GND #PWR0103
+U 1 1 5CAA6567
+P 8275 4625
+F 0 "#PWR0103" H 8275 4375 50  0001 C CNN
+F 1 "GND" H 8280 4452 50  0000 C CNN
+F 2 "" H 8275 4625 50  0001 C CNN
+F 3 "" H 8275 4625 50  0001 C CNN
+	1    8275 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2050 6775 2050
+Wire Wire Line
+	6775 2050 6775 2450
+Wire Wire Line
+	6775 2850 6300 2850
+Wire Wire Line
+	6300 2450 6775 2450
+Connection ~ 6775 2450
+Wire Wire Line
+	6775 2450 6775 2850
+Wire Wire Line
+	8050 2850 8050 3675
+Wire Wire Line
+	8050 3675 8475 3675
+Wire Wire Line
+	4700 2050 5700 2050
+Wire Wire Line
+	5000 2450 5700 2450
+Wire Wire Line
+	5700 2850 5300 2850
+Wire Wire Line
+	3350 3750 3625 3750
+Wire Wire Line
+	3625 3750 3625 4050
+Wire Wire Line
+	3350 4050 3625 4050
+Connection ~ 3625 4050
+Wire Wire Line
+	3625 4050 3625 4150
+Wire Wire Line
+	3350 4150 3625 4150
+Connection ~ 3625 4150
+Wire Wire Line
+	3625 4150 3625 4250
+Wire Wire Line
+	3350 4250 3625 4250
+Connection ~ 3625 4250
+Wire Wire Line
+	3625 4250 3625 4750
+$Comp
+L power:GND #PWR0104
+U 1 1 5CAAA39C
+P 3625 4750
+F 0 "#PWR0104" H 3625 4500 50  0001 C CNN
+F 1 "GND" H 3630 4577 50  0000 C CNN
+F 2 "" H 3625 4750 50  0001 C CNN
+F 3 "" H 3625 4750 50  0001 C CNN
+	1    3625 4750
+	1    0    0    -1  
+$EndComp
+Text Notes 5675 2850 2    50   ~ 0
+28V
+Text Notes 5675 2050 2    50   ~ 0
+5V
+Text Notes 5675 2450 2    50   ~ 0
+12C
+Wire Wire Line
+	3350 3950 5300 3950
+Wire Wire Line
+	5300 2850 5300 3950
+Wire Wire Line
+	3350 3850 5000 3850
+Wire Wire Line
+	5000 2450 5000 3850
+Wire Wire Line
+	4700 3650 3350 3650
+Wire Wire Line
+	4700 2050 4700 3650
+NoConn ~ 3350 3550
+$Comp
+L Device:Fuse F1
+U 1 1 5CAAE509
+P 7475 2850
+F 0 "F1" V 7278 2850 50  0000 C CNN
+F 1 "Fuse" V 7369 2850 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric" V 7405 2850 50  0001 C CNN
+F 3 "~" H 7475 2850 50  0001 C CNN
+	1    7475 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 2850 7625 2850
+Connection ~ 6775 2850
+Wire Wire Line
+	6775 2850 7325 2850
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5CA54DD6
+P 8675 3775
+F 0 "J?" H 8755 3767 50  0000 L CNN
+F 1 "Conn_01x04" H 8755 3676 50  0000 L CNN
+F 2 "" H 8675 3775 50  0001 C CNN
+F 3 "~" H 8675 3775 50  0001 C CNN
+	1    8675 3775
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
