@@ -1,5 +1,6 @@
 # Prop Support Board
 Michigan Aeronautial Science Association
+
 Alex Davenport
 
 ![shiny](https://github.com/davenporta/prop_support_board/blob/master/board_design/screenshots/snap4.png)
