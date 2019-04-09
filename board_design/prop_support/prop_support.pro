@@ -1,4 +1,4 @@
-update=4/1/2019 11:45:18 PM
+update=4/8/2019 6:40:50 PM
 version=1
 last_client=eeschema
 [general]
@@ -80,7 +80,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=./
+PlotDirectoryName=../pdfs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
