@@ -13,6 +13,7 @@ Alex Davenport
 * Analog signal out to MCU's integrated ADC
 * 3.3V, 5V, 12V, and 28V supply
 * Asymmetrical 9-pin header connector
+* Configurable with 6 types of sensor conditioning "daughter" boards
 
 ![asymmetrical!](https://raw.githubusercontent.com/davenporta/prop_support_board/master/board_design/screenshots/connector.PNG)
 
