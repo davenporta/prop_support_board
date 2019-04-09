@@ -13,7 +13,7 @@ Alex Davenport
 * 3.3V, 5V, 12V, and 28V supply
 * Asymmetrical 9-pin header connector
 
-![asymmetrical!]()
+![asymmetrical!](https://raw.githubusercontent.com/davenporta/prop_support_board/master/board_design/screenshots/connector.PNG)
 
 ### Available Sensor Boards
 * 3-wire Pressure Transducer w/ configurable excitation
