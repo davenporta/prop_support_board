@@ -19,8 +19,8 @@ Alex Davenport
 
 ### Available Sensor Boards
 * 3-wire Pressure Transducer w/ configurable excitation
-* 4-wire Pressure Transducer w/ configurable excitation
+* 4-wire Pressure Transducer w/ configurable excitation (WIP)
 * T or K-type Thermocouples
 * Load Cells
-* RTDs
-* Capacitive Level Sensor
+* RTDs (WIP)
+* Capacitive Level Sensor (WIP)
