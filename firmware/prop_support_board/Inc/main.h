@@ -78,14 +78,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define LED_3_Pin GPIO_PIN_12
-#define LED_3_GPIO_Port GPIOB
-#define LED_2_Pin GPIO_PIN_13
-#define LED_2_GPIO_Port GPIOB
-#define LED_1_Pin GPIO_PIN_14
-#define LED_1_GPIO_Port GPIOB
-#define LED_0_Pin GPIO_PIN_15
-#define LED_0_GPIO_Port GPIOB
+#define led3_Pin GPIO_PIN_12
+#define led3_GPIO_Port GPIOB
+#define led2_Pin GPIO_PIN_13
+#define led2_GPIO_Port GPIOB
+#define led1_Pin GPIO_PIN_14
+#define led1_GPIO_Port GPIOB
+#define led0_Pin GPIO_PIN_15
+#define led0_GPIO_Port GPIOB
 #define en_vlv7_Pin GPIO_PIN_6
 #define en_vlv7_GPIO_Port GPIOC
 #define en_vlv6_Pin GPIO_PIN_7
